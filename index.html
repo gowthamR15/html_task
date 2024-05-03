@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        .header {
+            height: 100px;
+            width: 500px;
+            background-color: blue;
+
+        }
+
+        .path {
+            height: 100px;
+            width: 500px;
+            background-color: rgb(255, 0, 234);
+
+        }
+
+        .dockTop {
+            height: 100px;
+            width: 500px;
+            background-color: rgb(6, 104, 160);
+
+        }
+
+        h4 {
+            text-align: center;
+        }
+
+        .middle {
+            height: 300px;
+            width: 500px;
+            background-color: antiquewhite;
+        }
+
+        .center {
+            height: 300px;
+            width: 200px;
+            background-color: rgb(219, 105, 52);
+            float: left;
+        }
+
+        .left {
+            height: 300px;
+            width: 150px;
+            background-color: rgb(215, 218, 250);
+            float: left;
+        }
+
+
+
+        .right {
+            height: 300px;
+            width: 150px;
+            background-color: rgb(111, 250, 150);
+            float: left;
+        }
+
+        .top {
+            height: 100px;
+            width: 200px;
+            background-color: rgb(0, 150, 42);
+
+        }
+
+        .bottom {
+            height: 200px;
+            width: 200px;
+            background-color: rgb(89, 137, 224);
+
+        }
+        .textCls{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="header textCls">
+        <h4>Header</h4>
+    </div>
+    <div class="path textCls">  <h4>path</h4></div>
+    <div class="dockTop textCls">  <h4>docktop</h4></div>
+    <div class="middle">
+        <div class="left textCls">  <h4>dockleft</h4></div>
+        <div class="center">
+            <div class="top textCls">  <h4>docktop</h4></div>
+            <div class="bottom textCls" >  <h4>dockbottom</h4></div>
+        </div>
+        <div class="right textCls"><h4>dockright</h4></div>
+    </div>
+</body>
+
+</html>
